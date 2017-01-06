@@ -54,3 +54,35 @@
 .sd {
   background-color: gold;
 }
+
+
+
+.swiper {
+  width: 100%;
+  height: 200px;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+}
+
+.item {
+  height: 20px;
+  background-color: orange;
+  vertical-align: text-top;
+}
+
+.btn-area {
+  width: 100%;
+  height: auto;
+}
+
+.body-view {
+  width: 100%;
+  height: 300px;
+}
+
+.progress {
+  padding: 10px;
+}
