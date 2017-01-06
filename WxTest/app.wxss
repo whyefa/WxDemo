@@ -14,7 +14,7 @@
   background-color: lightgoldenrodyellow;
   font-size: 15pt;
   padding: : 10rpx;
-  width: 600rpx;
+  width: 100%;
 }
 .center {
   text-align: center;

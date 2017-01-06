@@ -1,12 +1,19 @@
-<view class="container">
-  <view bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usertap">
-    <text class="user-tap">{{tap}}</text>
-  </view>
 
-  <button class="btn" bindtap="changeTitle">点击</button>
+<!-- flex 布局 -->
+<!-- <view class="flex-wrap">
+  <view class="a">a</view>
+  <view class="b">b</view>
+  <view class="c">c</view>
+</view> -->
 
-</view>
+<!-- scroll view -->
+<scroll-view class="wrap" bindscrolltoupper="scrollToUpper" scroll-y="true" 
+scroll-into-view="{{toView}}"
+bindscroll="scroll">
+  <view class="sa" id="a"></view>
+  <view class="sb" id="b"></view>
+  <view class="sc" id="b"></view>
+  <view class="sd" id="c"></view>
+</scroll-view>
+
+<button bindtap="change" class="btn" > 点我</button>
