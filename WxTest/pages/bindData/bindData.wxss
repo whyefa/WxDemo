@@ -1,0 +1,5 @@
+.vp {
+    border: 1px, solid, gold;
+}
+
+@import "../../style/base.wxss"

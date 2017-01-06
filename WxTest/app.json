@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/scrollview/scrollview",
+    "pages/bindData/bindData"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#BEF",
+    "navigationBarTitleText": "Alpha",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "gold",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/cart_default.png",
+      "selectedIconPath": "images/cart_active.png"
+    },    
+    {
+      "pagePath": "pages/bindData/bindData",
+      "text": "测试",
+      "iconPath": "images/service_default.png",
+      "selectedIconPath": "images/service_active.png"
+    },
+    {
+      "pagePath": "pages/scrollview/scrollview",
+      "text": "控件",
+      "iconPath": "images/sub3_default.png",
+      "selectedIconPath": "images/sub3_active.png"
+    }]
+  },
+  "debug": true
+}

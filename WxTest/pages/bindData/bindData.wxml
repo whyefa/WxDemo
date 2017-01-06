@@ -1,0 +1,53 @@
+
+
+<view hover-class="press" class="general" bindtap="back">{{id}}</view>
+
+<block  wx:if="{{show}}">
+    <view class="vp">第一个  view</view>
+    <view class="vp">第二个 view</view>
+</block>
+<!--只能对 text 使用-->
+
+
+<text hidden="{{true}}"> 我是一个文本 </text>
+
+<view class="center">{{show?"显示":"不显示"}}</view>
+
+<view>{{"hello  "+word}}</view>
+
+<!-- <view wx:for="{{arr}}">下标:{{index}} -- 当前项:{{item}}</view>
+
+
+<view wx:for="{{arr}}" wx:for-index="i" wx:for-item="itemName">
+	下标是 {{i}} : 当前项是{{itemName}}
+</view>
+
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+	<view style="display:inline-block;width:60px;padding-left:5px;"  wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+		<view wx:if="{{j <= i}}"> {{i}} * {{j}} = {{i*j}}</view>
+	</view>
+
+</view> -->
+
+<!-- 定义一个模板 -->
+<template name="test">
+	<view> 第一个:{{a}}</view>
+	<view> 第二个:{{b}}</view>
+	<view> 第三个:{{tempname}}</view>
+</template>
+
+<!-- 使用一个模板 -->
+
+<template is="test" data="{{...obj, b:2, tempname: name}}"></template>
+
+<view id="outter" bindtap="outterTap">
+	outerView
+	<view id="middle" bindtap="middleTap">
+		middle view
+		<view id="inner" catchtap="innerTap"> inner view</view>
+	</view>
+
+</view>
+
+
+

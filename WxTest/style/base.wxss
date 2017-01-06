@@ -1,0 +1,6 @@
+.general {
+  width: 80%;
+  height: 40rpx;
+  background-color: green;
+  -ms-flex-align: center;
+}

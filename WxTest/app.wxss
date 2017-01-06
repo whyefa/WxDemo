@@ -1,0 +1,28 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;BindData
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-top: 50rpx;
+  background-color: lightgoldenrodyellow;
+  font-size: 15pt;
+  padding: : 10rpx;
+  width: 600rpx;
+}
+.center {
+  text-align: center;
+  text-shadow: beige;
+  font-size: 15sp;
+  width: 100%;
+}
+
+.press {
+  background-color: palegoldenrod;
+}
