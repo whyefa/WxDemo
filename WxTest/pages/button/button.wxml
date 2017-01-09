@@ -1,0 +1,7 @@
+<button class="button" type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="default" hover-class="ohter-button-hover">default</button>
+<button class="button" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="primary">primary</button>
+<button class="button" type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="warn">warn</button>
+
+<button class="button" bindtap="setDisabled">点我设置以上按钮的disabled属性</button>
+<button class="button" bindtap="setPlain">点击设置以上按钮的plain属性</button>
+<button class="button" bindtap="setLoading">点击设置以上按钮的loading属性</button>

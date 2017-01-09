@@ -1,0 +1,9 @@
+<view class="section">
+  <scroll-view scroll-y="true">
+    <button class="button" hover-class="button-hover" bindtap="testScrollview">scroll view</button>
+    <button class="button" hover-class="button-hover" bindtap="testSwiper">swiper</button>
+    <button class="button" hover-class="button-hover" bindtap="testButton">button</button>
+    <button class="button" hover-class="button-hover" bindtap="testProgress">progress</button>
+    <button class="button" hover-class="button-hover" bindtap="testForm">Form</button>
+  </scroll-view>
+</view>

@@ -1,76 +1,16 @@
 
 <!-- flex 布局 -->
-
-<!-- <view class="flex-wrap">
+<view class="flex-wrap">
   <view class="a">a</view>
   <view class="b">b</view>
   <view class="c">c</view>
-</view> -->
+</view>
 
 <!-- scroll view -->
-
-<!-- <scroll-view class="wrap" bindscrolltoupper="scrollToUpper" scroll-y="true" 
-scroll-into-view="{{toView}}"
-bindscroll="scroll">
+<scroll-view class="wrap" bindscrolltoupper="scrollToUpper" scroll-y="true" scroll-into-view="{{toView}}" bindscroll="scroll">
   <view class="sa" id="a"></view>
   <view class="sb" id="b"></view>
   <view class="sc" id="b"></view>
   <view class="sd" id="c"></view>
 </scroll-view>
-<button bindtap="change" class="btn" > 点我</button> -->
-
-
-<!-- swiper 使用 -->
-<swiper class="swiper" indicator-dots="{{true}}" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true" >
-	<swiper-item wx:for="{{imgUrls}}">
-		<image class="img" src="{{item}}"/>
-	</swiper-item>
-
-</swiper>
-
-<!-- text  -->
-
-<!-- <view class="group">
-  <block >
-    <icon class="item" type="success" size="20"></icon>
-    <text class="item"> 姓名: 姜老大</text>
-  </block>
-</view>
-
-<view class="btn-area">
-  <view class="body-view">
-    <text>{{text}}</text>
-    <button bindtap="add">add line</button>
-    <button bindtap="remove">remove</button>
-  </view>
-</view> -->
-
-<!-- progress -->
-
-
-<progress class="progress" percent="20" show-info></progress>
-<progress class="progress" percent="80" color="pink" stroke-width="20" active show-info></progress>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<button bindtap="change" class="button"> 点我</button>

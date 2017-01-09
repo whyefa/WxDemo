@@ -1,8 +1,15 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/kits/kits",
+
     "pages/scrollview/scrollview",
+    "pages/swiper/swiper",
+    "pages/button/button",
+    "pages/progress/progress",
+    "pages/form/form",
+
+    "pages/logs/logs",
     "pages/bindData/bindData"
   ],
   "window":{
@@ -19,15 +26,9 @@
       "text": "首页",
       "iconPath": "images/cart_default.png",
       "selectedIconPath": "images/cart_active.png"
-    },    
-    {
-      "pagePath": "pages/bindData/bindData",
-      "text": "测试",
-      "iconPath": "images/service_default.png",
-      "selectedIconPath": "images/service_active.png"
     },
     {
-      "pagePath": "pages/scrollview/scrollview",
+      "pagePath": "pages/kits/kits",
       "text": "控件",
       "iconPath": "images/sub3_default.png",
       "selectedIconPath": "images/sub3_active.png"

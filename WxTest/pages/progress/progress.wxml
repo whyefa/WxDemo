@@ -1,0 +1,23 @@
+<!-- text  -->
+
+ <view class="group">
+  <block >
+    <icon class="item" type="success" size="20"></icon>
+    <text class="item"> 姓名: 姜老大</text>
+  </block>
+</view>
+
+<view class="btn-area">
+  <view class="body-view">
+    <text>{{text}}</text>
+    <button class="button" bindtap="add">add line</button>
+    <button class="button" bindtap="remove">remove</button>
+  </view>
+</view> 
+
+
+<!-- progress -->
+
+
+<progress class="progress" percent="20" show-info></progress>
+<progress class="progress" percent="80" color="pink" stroke-width="20" active show-info></progress>
