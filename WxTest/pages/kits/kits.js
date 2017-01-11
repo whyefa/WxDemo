@@ -26,5 +26,30 @@ Page({
     wx.navigateTo({
       url: '../form/form'
     })
+  },
+  testPicker: function() {
+    wx.navigateTo({
+      url: '../picker/picker'
+    })
+  },
+  testAlert: function(){
+    wx.navigateTo({
+      url: '../alert/alert'
+    })
+  },
+  testMedia: function(){
+    wx.navigateTo({
+      url: '../media/media'
+    })
+  },
+  testMap: function(){
+    wx.navigateTo({
+      url: '../map/map'
+    })
+  },
+  testConvas: function(){
+    wx.navigateTo({
+      url: '../convas/convas'
+    })
   }
 })

@@ -9,6 +9,6 @@
     <text class="user-tap">{{tap}}</text>
   </view>
 
-  <button class="button" bindtap="changeTitle">点击</button>
+  <navigator class="nav" hover-class="nav-hover" url="../logs/logs?id=123456">跳转到日志页面</navigator>
 
 </view>

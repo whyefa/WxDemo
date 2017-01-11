@@ -1,0 +1,6 @@
+<view class="section">
+  <button class="button" bindtap="action">Action Sheet</button>
+  <button class="button" bindtap="toast">Toast</button>
+  <button class="button" bindtap="modal">Modal</button>
+  <view></view>
+</view>

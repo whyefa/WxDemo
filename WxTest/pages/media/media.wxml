@@ -1,0 +1,35 @@
+<view class="section">
+  <video src="{{videoSRC}}" controls="controls"></video>
+  <view class="btn-area">
+  </view>
+</view>
+
+<view class="section">
+  <video src="{{videoSRC}}" id="myVideo" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <input type="text" placeholder="输入弹幕" bindblur="bindInputBlur"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>
+
+<audio src="{{audioSrc}}" poster="{{poster}}" name="{{name}}" author="{{author}}" id="myAudio" controls loop></audio>
+<button type="primary" bindtap="audioPlay">播放</button>
+<button type="primary" bindtap="audioPause">暂停</button>
+<button type="primary" bindtap="audio14">设置播放时间为14秒</button>
+<button type="primary" bindtap="audioStart">重新开始</button>
+
+
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">image</text>
+    <text class="page__desc">图片</text>
+  </view>
+  <view class="page__hd">
+    <view class="section section_gap" wx:for="{{array}}">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section_ctn">
+        <image style="width:200px;height:200px;background-color:#eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

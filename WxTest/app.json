@@ -8,6 +8,13 @@
     "pages/button/button",
     "pages/progress/progress",
     "pages/form/form",
+    "pages/picker/picker",
+    "pages/alert/alert",
+    "pages/media/media",
+    "pages/map/map",
+    "pages/convas/convas",
+    "pages/snake/snake",
+    "pages/movie/movie",
 
     "pages/logs/logs",
     "pages/bindData/bindData"
@@ -32,6 +39,18 @@
       "text": "控件",
       "iconPath": "images/sub3_default.png",
       "selectedIconPath": "images/sub3_active.png"
+    },
+    {
+      "pagePath": "pages/snake/snake",
+      "text": "贪吃蛇",
+      "iconPath": "images/sub5_default.png",
+      "selectedIconPath": "images/sub5_active.png"
+    },
+    {
+      "pagePath": "pages/movie/movie",
+      "text": "豆瓣",
+      "iconPath": "images/service_default.png",
+      "selectedIconPath": "images/service_active.png"
     }]
   },
   "debug": true

@@ -32,14 +32,22 @@
   background-color: palegoldenrod;
 }
 
-.section {
-  margin-bottom: 80rpx;
+.nav {
+  padding: 5px;
+  font-size: 25px;
+  color: gold;
+}
+
+.nav-hover {
+  background-color: darkgray;
 }
 
 .section_title {
   margin-bottom: 16rpx;
   padding-left: 30rpx;
   padding-right: 30rpx;
+  font-size: 15px;
+  color: darkgrey;
 }
 
 .page {
@@ -70,7 +78,7 @@
 .page-header-line {
   width: 150rpx;
   height: 1px;
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;
 }
 
 .page-body {
@@ -259,6 +267,7 @@ checkbox, radio{
 
 .section{
     margin-bottom: 80rpx;
+    color: darkgreen;
 }
 .section_gap{
     padding: 0 30rpx;
@@ -267,9 +276,5 @@ checkbox, radio{
     margin-bottom: 16rpx;
     padding-left: 30rpx;
     padding-right: 30rpx;
+    color: black;
 }
-.section_gap .section__title{
-    padding-left: 0;
-    padding-right: 0;
-}
-

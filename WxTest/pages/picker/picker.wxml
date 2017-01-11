@@ -1,0 +1,38 @@
+<view class="section_title">选择城市
+  <picker bindchange="pickerChange" value="{{index}}" range="{{cities}}">
+    <view class="section__title">当前选择: {{cities[index]}}</view>
+  </picker>
+</view>
+
+<view class="section_title">
+  时间选择器
+  <picker start="00:00" end="23:59" mode="time" value="{{time}}" bindchange="timeChange">
+    <view class="section__title">当前选择时间:{{time}}</view>
+  </picker>
+</view>
+
+<view class="section">
+  <view class="section__title">日期选择器
+    <picker value="{{date}}" start="2015-01-01" end="2018-01-01" bindchange="dateChange" mode="date">
+      <view class="picker">当前选择日期:{{date}}</view>
+    </picker>
+  </view>
+</view>
+
+ <view>
+  <view>{{year}}年{{month}}月{{day}}日</view>
+  <picker-view indicator-style="height: 50px;" style="width: 100%;height: 300px;" value="{{value}}" bindchange="valueChange">
+    <picker-view-column>
+      <view wx:for="{{years}}" style="line-height:50px">{{item}}年</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{months}}" style="line-height:50px">{{item}}月</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{days}}" style="line-height:50px">{{item}}日</view>
+    </picker-view-column>
+  </picker-view>
+</view> 
+
+
+

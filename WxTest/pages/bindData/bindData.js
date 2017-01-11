@@ -1,5 +1,5 @@
 Page({
-  data:{
+  data: {
     name: "RC",
     id: 1,
     show: true,
@@ -10,24 +10,24 @@ Page({
       b: 5
     }
   },
-  outterTap: function() {
+  outterTap: function () {
     console.log("outterTap")
   },
-  middleTap:function(){
+  middleTap: function () {
     console.log("middleTap")
   },
-  innerTap:function(event) {
+  innerTap: function (event) {
     console.log(event)
     console.log("innerTap")
   },
-  onLoad:function(options){
+  onLoad: function (options) {
     // 生命周期函数--监听页面加载
     console.log("bindData")
   },
-  back: function(){
-      console.log("back")
+  back: function () {
+    console.log("back")
   },
-  onShareAppMessage: function() {
+  onShareAppMessage: function () {
     // 用户点击右上角分享
     return {
       title: 'title', // 分享标题

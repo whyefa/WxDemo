@@ -5,5 +5,14 @@
     <button class="button" hover-class="button-hover" bindtap="testButton">button</button>
     <button class="button" hover-class="button-hover" bindtap="testProgress">progress</button>
     <button class="button" hover-class="button-hover" bindtap="testForm">Form</button>
+    <button class="button" hover-class="button-hover" bindtap="testPicker">Picker</button>
+    <button class="button" hover-class="button-hover" bindtap="testAlert">Alert</button>
+    <button class="button" hover-class="button-hover" bindtap="testMedia">Meida</button>
+    <button class="button" hover-class="button-hover" bindtap="testMap">Map</button>
+    <button class="button" hover-class="button-hover" bindtap="testConvas">Convas</button>
+    <button class="button" hover-class="button-hover" bindtap="test.."></button>
+    <button class="button" hover-class="button-hover" bindtap="test.."></button>
+    <button class="button" hover-class="button-hover" bindtap="test.."></button>
+    <button class="button" hover-class="button-hover" bindtap="test.."></button>
   </scroll-view>
 </view>
