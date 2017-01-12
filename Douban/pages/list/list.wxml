@@ -1,0 +1,3 @@
+<view class="page_hd">
+  <text class="page_hd-title">{{title}}</text>
+</view>
